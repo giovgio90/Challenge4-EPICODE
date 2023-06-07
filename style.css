@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+body {
+   display: flex;
+   margin: 0;
+   height: 100vh;
+   font-family: 'Roboto', sans-serif;
+}
+
+#main {
+   width: 100%;
+}
+
+#content {
+   height: 100%;
+}
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar-icon {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sidebar-icon p {
+    margin: 0;
+}
+
+.sidebar-icon ion-icon {
+    font-size: 1.5em;
+}
+
+#topbar {
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Logo {
+    height: 50%;
+    cursor: pointer;
+}
+
+#search-wrapper {
+    display: flex;
+    height: 50%;
+}
+
+#topbar-icons {
+    display: flex;
+    
+}
+
+.topbar-icon ion-icon {
+    font-size: 2em;
+    padding: 0 0.3em;
+    cursor: pointer;
+}
+
+#mic-icon ion-icon {
+    font-size: 1.7em;
+    cursor: pointer;
+}
+
+#mic-icon {
+    margin: 0 0.5em;
+}
+
+#search-btn {
+    padding: 0 0.6em;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.in-content  {
+display: flex;
+position: relative;
+top: -10px;
+}
+   
+.in-content2  {
+display: flex;
+position: relative;
+top: -40px;
+}
+
+
+
+.content1  {
+    
+    height: 11em;
+    padding: 0.5em;
+    padding-top: 2.5em;
+    cursor: pointer;
+    }
+
+.content2  {
+    height: 11em;
+    padding: 0.5em; 
+    padding-top: 2.5em;
+    cursor: pointer;
+}
+
+
+.content3  {
+    height: 11em;
+    padding: 0.5em;
+    padding-top: 2.5em;
+    cursor: pointer;
+}
+
+
+.content4   {
+    height: 11em;
+    padding: 0.5em;
+    cursor: pointer;
+}
+
+
+.content5   {
+    height: 11em;
+    padding: 0.5em;
+    cursor: pointer;
+    }
+
+.content6  {
+    height: 11em;
+    padding: 0.5em;
+    cursor: pointer;
+}
+
+#content h3 {
+   position: relative;
+   top: -40px;
+   right: -13px;
+   font-size: 95%;
+   }
+
+.Paragrafo {
+
+    position: relative;
+    top: -60px;
+    right: -44px;
+    font-size: 75%;
+}
+
+
+
+.Logo1 {
+
+    height: 1.9em;
+    position: relative;
+    top: 15px;
+    right: 5px;
+}
+
+
+
+
